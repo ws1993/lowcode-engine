@@ -1,3 +1,4 @@
+import { IPublicTypeComponentMetadata } from "@alilc/lowcode-types";
 export default {
   componentName: 'Button',
   npm: {
@@ -6,7 +7,7 @@ export default {
   },
   title: '按钮',
   docUrl: 'https://github.com/alibaba/lowcode-materials/tree/main/docs',
-  devMode: 'procode',
+  devMode: 'proCode',
   tags: ['布局'],
   configure: {
     props: [
@@ -94,7 +95,7 @@ export default {
           },
         ],
       },
-      () => 'haha', // CustomView
+      () => 'haha', // IPublicTypeCustomView
       {
         type: 'group',
         name: 'groupkgzzeo41',
@@ -304,4 +305,4 @@ export default {
     ],
     autoruns: [],
   },
-};
+} as IPublicTypeComponentMetadata;
